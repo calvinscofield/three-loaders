@@ -794,4 +794,4 @@ const OBJLoader = ( function () {
 
 } )();
 
-export default = OBJLoader
+export default OBJLoader
