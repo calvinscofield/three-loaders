@@ -1,6 +1,6 @@
 {
   "name": "@calvinscofield/three-loaders",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Threejs loaders plugin, ES6.",
   "main": "index.js",
   "scripts": {
