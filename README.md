@@ -1,0 +1,19 @@
+### Usage
+
+```js
+npm i @calvinscofield/three-loader -S
+import { OBJLoader } from '@calvinscofield/three-loaders'
+let loader = new OBJLoader()
+loader.load(
+  'model/penlin.obj',
+  (object) => {
+
+  },
+  (xhr) => {
+    console.log((xhr.loaded / xhr.total * 100) + '% loaded')
+  },
+  (error) => {
+	console.log(error, 'An error happened')
+  }
+)
+```

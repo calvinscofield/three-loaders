@@ -1,0 +1,22 @@
+{
+  "name": "@calvinscofield/three-loaders",
+  "version": "1.0.3",
+  "description": "Threejs loaders plugin, ES6.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:calvinscofield/three-loaders.git"
+  },
+  "keywords": [
+    "three",
+    "loaders"
+  ],
+  "author": "calvinscofield@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "three": "^0.94.0"
+  }
+}
